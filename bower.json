@@ -1,0 +1,25 @@
+{
+  "name": "bower",
+  "authors": [
+    "ivan <<sbr.com@hotmail.com>>"
+  ],
+  "description": "bower use",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "bower"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2"
+  }
+}

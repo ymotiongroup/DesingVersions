@@ -1,1 +1,1 @@
-$(document).ready(function(){alert("esto es test")});
+$(document).ready(function(){});

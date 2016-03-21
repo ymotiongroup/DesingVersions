@@ -1,1 +1,1 @@
-$(document).ready(function(){});
+function banneranimate(){setTimeout(function(){$(".banner").css({left:"0","z-index":"-2"}),setTimeout(function(){$(".banner2").css({right:"0"})},3e3)},500)}$(document).ready(function(){window.onload=banneranimate()});

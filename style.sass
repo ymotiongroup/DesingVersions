@@ -1,22 +1,39 @@
 @font-face
   font-family: "raleway"
   src: url('bower_components/fonts/theleagueof-raleway-40afd9d/Raleway Thin.ttf')
+@font-face
+  font-family: "icons"
+  src: url('bower_components/fonts/TipicIcons/fonts/icomoon.eot')
+  src: url('bower_components/fonts/TipicIcons/fonts/icomoon.svg')
+  src: url('bower_components/fonts/TipicIcons/fonts/icomoon.ttf')
+  src: url('bower_components/fonts/TipicIcons/fonts/icomoon.woff')
 body,html
   width: 100%
   height: 100%
-  background-color: gray
   margin: 0
   padding: 0
 header
   width: 100%
-  height: auto
-  background-color: rgba(0, 0, 0, 0.5)
+  height: 70px
+  background-color: rgba(0, 0, 0, 0.7)
+  position: fixed
+  z-index: 2
   table
+    float: left
     margin-left: 5%
     img
       padding: 10px
       &:hover
         cursor: pointer
+  div
+    float: right
+    padding: 20px
+    margin-right: 5%
+    color: white
+    transition: all 0.5 ease-in-out
+    &:hover
+      cursor: pointer
+      color: black
 .header-text
   color: white
   font-size: 20px
@@ -24,3 +41,42 @@ header
 .small-text
   color: white
   font-size: 15px
+i
+  font-style: normal
+  transition: all 0.5s ease-in-out
+.icons
+  font-family: icons
+  font-size: 32px
+.div_banner
+  width: 100%
+  height: 700px
+  float: left
+.banner
+  width: 100%
+  height: 500px
+  background-image: url(/imagenes/FondoIndex.jpg)
+  background-position: center
+  background-size: auto
+  background-repeat: no-repeat
+  position: absolute
+  bottom: 0
+  left: -100%
+  transition: all 1.5s ease-in-out
+  z-index: -1
+.banner2
+  width: 100%
+  height: 500px
+  background-image: url(/imagenes/FondoIndexMarketing.jpg)
+  background-position: center
+  background-size: auto
+  background-repeat: no-repeat
+  position: absolute
+  right: -100%
+  bottom: 0
+  transition: all 1.8s ease-in-out
+  z-index: -1
+.info
+  width: 100%
+  height: 300px
+  background-color: gray
+  float: left
